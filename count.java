@@ -5,7 +5,6 @@ public class count {
                int x = i * 2;
                 sum += x;
             }
-            
                   System.out.println(sum);
                   System.out.println(x); 
            }
