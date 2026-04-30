@@ -1,18 +1,18 @@
-package Assignment_3;
+package Loops;
 
 public class PatternQ12 {
-     public static void main(String[] args) {
-     
-        for(int i = 1; i<=3;i++){
-            int n =1;
-            for(int j=1;j<=3;j++){
-                if(i>=j){
-                    System.out.print(n+" ");
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 3; i++) {
+            int n = 1;
+            for (int j = 1; j <= 3; j++) {
+                if (i >= j) {
+                    System.out.print(n + " ");
                     n++;
 
                 }
-            }   
-               System.out.println();
-        }  
-     }
+            }
+            System.out.println();
+        }
+    }
 }

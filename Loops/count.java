@@ -8,7 +8,7 @@ public class count {
             sum += x;
         }
         System.out.println(sum);
-        System.out.println(x);
+        // variable scope error.
     }
 }
 //
