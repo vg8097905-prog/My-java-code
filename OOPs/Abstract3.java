@@ -1,6 +1,8 @@
+package OOPs;
 
-abstract class Vehicle {
-    abstract void start();   // what to do
+abstract class Vehicle1 {
+    abstract void start(); // what to do
+
     abstract void stop();
 
     void fuelType() {
@@ -9,7 +11,7 @@ abstract class Vehicle {
 }
 
 // Child class 1
-class Car extends Vehicle {
+class Car extends Vehicle1 {
     void start() {
         System.out.println("Car starts with key or button");
     }
@@ -18,8 +20,9 @@ class Car extends Vehicle {
         System.out.println("Car stops using brake");
     }
 }
+
 // Child class 2
-class Bike extends Vehicle {
+class Bike extends Vehicle1 {
     void start() {
         System.out.println("Bike starts with kick or self-start");
     }
@@ -28,16 +31,17 @@ class Bike extends Vehicle {
         System.out.println("Bike stops using brake");
     }
 }
-public class main{
+
+public class Abstract3 {
     public static void main(String[] args) {
-        Vehicle v1 = new Car();
+        Vehicle1 v1 = new Car();
         v1.start();
         v1.stop();
         v1.fuelType();
 
         System.out.println();
 
-        Vehicle v2 = new Bike();
+        Vehicle1 v2 = new Bike();
         v2.start();
         v2.stop();
         v2.fuelType();

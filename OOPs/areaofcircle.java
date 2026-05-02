@@ -1,18 +1,19 @@
 package OOPs;
-class circle{
+
+class circle {
     float radius;
 
-    void area(){
-        System.out.println("area="+3.14*radius*radius);
+    void area() {
+        System.out.println("area=" + 3.14 * radius * radius);
     }
 }
 
-public class Q15 {
+public class areaofcircle {
     public static void main(String[] args) {
         circle a1 = new circle();
-        a1.radius=2;
+        a1.radius = 2;
 
         a1.area();
     }
-    
+
 }
