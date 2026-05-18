@@ -2,6 +2,8 @@ package Array;
 
 import java.util.*;
 
+import OOPs.Scanner;
+
 public class Numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

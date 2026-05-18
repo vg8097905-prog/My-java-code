@@ -2,6 +2,8 @@ package Array;
 
 import java.util.*;
 
+import OOPs.Scanner;
+
 public class SumofElements {
     public static void main(String[] args) {
         int sum = 0;
